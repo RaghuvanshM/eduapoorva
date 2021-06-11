@@ -1,0 +1,14 @@
+com/eduarchiver/BuildConfig.java
+ com.eduarchiver.BuildConfig
+com/eduarchiver/MainApplication.java
+ com.eduarchiver.MainApplication
+ com.eduarchiver.MainApplication$1
+com/eduarchiver/ReactNativeFlipper.java
+ com.eduarchiver.ReactNativeFlipper
+ com.eduarchiver.ReactNativeFlipper$1
+ com.eduarchiver.ReactNativeFlipper$2
+ com.eduarchiver.ReactNativeFlipper$2$1
+com/eduarchiver/MainActivity.java
+ com.eduarchiver.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
