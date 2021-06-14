@@ -1,1 +1,1 @@
-../../../../../../node_modules/react-native/React/FBReactNativeSpec/PROJECTS/eduarchiver/node_modules/react-native/React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h
+../../../../../../node_modules/react-native/React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h

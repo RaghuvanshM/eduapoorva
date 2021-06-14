@@ -1,6 +1,18 @@
 import React, { Component } from "react";
 import { Text } from 'react-native';
-export default class Splash extends Component {
+import { connect } from "react-redux";
+import {saveUserLanguage} from "../../store/action";
+
+ class Splash extends Component {
+
+  componentDidMount() {
+    const { replace } = this.props.navigation;
+
+    setTimeout(() => {
+      this.props.saveUserLanguage('hi');
+      replace("DashboardScreen");
+    }, 1000);
+  }
 
   render() {
 
@@ -9,3 +21,8 @@ export default class Splash extends Component {
     );
   }
 }
+
+
+const mapStateToProps = (state) => ({ user: state.user });
+const mapDispatchToProps = { saveUserLanguage };
+export default connect(mapStateToProps, mapDispatchToProps)(Splash);

@@ -6,13 +6,17 @@ import {
   TextInput,
   KeyboardAvoidingView,
   ScrollView,
+  SafeAreaView
 } from "react-native";
 
 export default class Login extends Component {
 
   render() {
     return (
-      <Text>Login Screen</Text>
+      <SafeAreaView>
+       <Text>Login Screen</Text>
+      </SafeAreaView>
+   
     );
   }
 }
