@@ -21,10 +21,6 @@ const BannerWidth = Dimensions.get("window").width;
 
   return (
     <View style={styles.MainContainer}>
-      {/* <ImageBackground
-        style={styles.bgContainer}
-        source={require("../assets/images/bottamBg.png")}
-      > */}
         <View style={styles.mapView}>
           {state.routes.map((route, index) => {
             const { options } = descriptors[route.key];
